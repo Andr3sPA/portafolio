@@ -18,9 +18,6 @@ function App() {
       <ResizablePanelGroup direction="horizontal" className="rounded-lg border md:min-w-[450px] ">
         <ResizablePanel className="w-2" style={{backgroundColor: '#e8f8f5'}} defaultSize={25}>
             <div className="flex flex-col items-center w-full gap-5 pt-8"> {/* Modified classes */}
-             <div className="flex items-center justify-center">
-              <img src="/img side bar.png" alt="Sidebar visual aid" />
-            </div>
             <div>
               Andrés Peña
             </div>
@@ -137,7 +134,7 @@ function App() {
   <CardContent>
     <div className="flex flex-col md:flex-row items-center justify-between w-full">
       {/* Sección de texto */}
-<div className="md:w-[55%] mb-8 md:mb-0 text-left"> {/* Añade text-left para ser explícito */}
+<div className=" mb-8 md:mb-0 text-left"> {/* Añade text-left para ser explícito */}
   <h1 className="text-4xl font-bold text-gray-800 mb-4">
     Andrés Peña
     
@@ -154,13 +151,6 @@ function App() {
   <DialogDemo/>
 </div>
 
-      <div className="md:w-[40%] flex justify-center">
-        <img 
-          src="/img body.png" 
-          alt="Profile illustration" 
-          className="w-full max-w-[400px] h-auto"
-        />
-      </div>
     </div>
   </CardContent>
 
