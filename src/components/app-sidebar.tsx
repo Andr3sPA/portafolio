@@ -17,7 +17,7 @@ const items = [
     icon: <DiGithubBadge size="36px" />, // Using a specific pixel size, e.g., 36px or try "2.25em"
   },
   {
-    url: "www.linkedin.com/in/andrés-darío-peña-asprilla-6aa9ab290",
+    url: "https://linkedin.com/in/andrés-darío-peña-asprilla-6aa9ab290",
     icon: <FaLinkedin size="36px" />, // Using a specific pixel size, e.g., 36px or try "2.25em"
   },
 ];
