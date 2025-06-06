@@ -17,7 +17,7 @@ const portfolioItemsData: PortfolioItem[] = [
     imageUrl: "/gestion_de_residuos.png",
     title: "Waste Management System",
     description: `Academic project developed with Next.js for the University of Antioquia’s Systems Engineering program. Features an interactive waste availability map, multi-role user system (buyers/sellers/collectors), and waste classification (recyclable/non-recyclable). Streamlines auction processes, transactions, and disposal logistics for enterprises.`,
-    projectUrl: "https://gestion-de-residuos-six.vercel.app/",
+    projectUrl: "https://gestion-de-residuos-six.vercel.app",
   },
   {
     id: "projectEcommerce",
