@@ -205,13 +205,48 @@ University of Antioquia, Colombia`}
                       System Engineering Career
                     </h2>
                     <p className="text-sm text-gray-500 leading-relaxed break-words">
-                      Currently serving as a Programming Assistant, developing backend solutions and automation tools to streamline workflows. Focused on applying software architecture principles and security best practices learned through coursework to deliver efficient, scalable systems.
+                      Focusing on software development, software architecture principles, and security best practices throughout the coursework. Dedicated to learning and applying knowledge to build efficient and scalable systems.
                     </p>
                   </div>
                 </TableCell>
               </TableRow>
             </TableBody>
           </Table>
+  </CardContent>
+</Card>
+{/* Work Experience Section */}
+<div className="w-full">
+  <h1 className="text-3xl font-bold text-gray-800 mb-6">
+    Work Experience
+  </h1>
+</div>
+<Card className="mx-4 my-2">
+  <CardContent>
+    <Table>
+      <TableBody>
+        <TableRow>
+          <TableCell>
+            <h2 className="text-lg font-semibold text-gray-900">University Of Antioquia</h2>
+            <div className="flex items-center gap-2 mt-2">
+              <span className="text-sm text-gray-700">Programming Assistant</span>
+              <span className="bg-green-400 text-white text-sm px-2 py-1 rounded-md">
+                Dec 2023 - Current
+              </span>
+            </div>
+          </TableCell>
+          <TableCell className="h-auto whitespace-normal">
+            <div className="w-full text-left">
+              <h2 className="text-lg font-semibold text-gray-900 mb-2">
+                Backend Development and Automation
+              </h2>
+              <p className="text-sm text-gray-500 leading-relaxed break-words">
+                Developed backend solutions and automation tools, including process automation using Google Apps Script to streamline operations. Contributed to web interface development with responsive design using Vuetify. Performed metric analysis via custom algorithms in Apps Script, utilizing data from Excel and Drive. Also handled database management, maintenance, and form integration. Applied software architecture principles and security best practices to deliver efficient, scalable systems.
+              </p>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
   </CardContent>
 </Card>
                                         <div className="w-full">
