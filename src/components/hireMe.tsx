@@ -31,9 +31,8 @@ export function DialogDemo() {
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>Why me?</DialogTitle>
-          <DialogDescription>
             Passionate backend developer skilled in scalable solutions, driven by continuous learning and tackling technical challenges with a security-first mindset.
-          </DialogDescription>
+
         </DialogHeader>
         
           <div className="items-center gap-4 py-4">
