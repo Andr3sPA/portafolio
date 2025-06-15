@@ -181,7 +181,7 @@ function App() {
       
       {/* Contenido */}
       <p className="text-gray-600 leading-relaxed whitespace-pre-line">
-        {`B.S. in Systems Engineering (2025 Expected)
+        {`B.S. in Systems Engineering (2026 Expected)
 University of Antioquia, Colombia`}
       </p>
     </div>
@@ -195,7 +195,7 @@ University of Antioquia, Colombia`}
       <div className="flex items-center gap-2 mt-2">
         <span className="text-sm text-gray-700">Student</span>
         <span className="bg-yellow-400 text-white text-sm px-2 py-1 rounded-md">
-          Feb 2019 - Dec 2025
+          Feb 2020 - Jun 2026
         </span>
     </div>
     </TableCell>
