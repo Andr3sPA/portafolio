@@ -13,6 +13,23 @@ export interface PortfolioItem extends CarouselItemWithId {
 
 const portfolioItemsData: PortfolioItem[] = [
   {
+  id: "whaleClassification",
+  imageUrl: "/whale_classification.png", // Asegúrate de tener esta imagen en tu carpeta pública
+  title: "Whale Species Classification",
+  description:
+    "Deep learning project tackling an extreme multi-class image classification problem with over 4000 classes using CNNs. Conducted data exploration, preprocessing, and built a baseline model to classify whale species. Highlights challenges of class imbalance and the need for advanced architectures.",
+  projectUrl: "https://github.com/Andr3sPA/Proyecto_deep_learning",
+},
+{
+  id: "restaurantManagement",
+  imageUrl: "/restaurant_app.png", // Asegúrate de tener esta imagen en tu carpeta pública
+  title: "Restaurant Management System",
+  description:
+    "Full-stack restaurant management app built with the T3 stack (Next.js, Prisma, NextAuth, tRPC). Enables menu browsing, role-based access (client, employee, admin), and real-time order/inventory management. Deployed on Vercel with authentication and admin metrics.",
+  projectUrl: "https://empanadas-restaurante.vercel.app",
+},
+
+  {
     id: "gestionResiduos",
     imageUrl: "/gestion_de_residuos.png",
     title: "Waste Management System",
@@ -40,6 +57,7 @@ const portfolioItemsData: PortfolioItem[] = [
     description: "Machine learning project for Kaggle’s competition predicting NCAA basketball tournament outcomes using Python, Pandas, and scikit-learn. Engineered features from game statistics (team performance, win trends), trained classification models (logistic regression), and validated results via cross-validation. Achieved competitive accuracy by analyzing rankings and game locations, with workflows deployed in Jupyter and Google Colab for collaborative model iteration.",
     projectUrl: "https://github.com/Andr3sPA/proyecto_modelos_simulacion_1", // Recuerda cambiar esta URL
   },
+  
 ];
 
 export function PortfolioCarousel() {
