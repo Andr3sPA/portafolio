@@ -4,6 +4,7 @@ import * as React from "react";
 import { DiPython } from "react-icons/di";
 import { DiDocker } from "react-icons/di";
 import { FaJava, FaReact, FaDatabase } from "react-icons/fa";
+import { SiAmazon } from "react-icons/si";
 interface Skill {
   id: string;
   icon?: React.ReactNode; // Changed to React.ReactNode
@@ -42,6 +43,12 @@ const [skills, setSkills] = React.useState([
     icon:<DiPython />,
     title: "Machine Learning",
     description: "Python · Pandas · scikit-learn"
+  },
+  {
+    id: "6",
+    icon: <SiAmazon />,
+    title: "Cloud Computing",
+    description: "AWS · EC2 · API Gateway · Lambda · SQS · SNS · RDS"
   }
 ]);
 

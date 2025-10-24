@@ -8,6 +8,7 @@ import { SortableDynamicOverlayDemo } from './extra_skills';
 import { AppSidebar } from './components/app-sidebar';
 import { SidebarProvider } from './components/ui/sidebar';
 import { PortfolioCarousel } from './components/PortfolioCarousel';
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { DialogDemo } from './components/hireMe';
 import { Toaster } from "@/components/ui/sonner"
 function App() {
@@ -117,6 +118,10 @@ function App() {
                 <FcCommandLine className="mr-1"/>
                 <span className="text-sm">Mongoose, Prisma</span>
               </div>
+              <div className="flex items-center py-1">
+                <FcCommandLine className="mr-1"/>
+                <span className="text-sm">AWS (EC2, API Gateway, Lambda)</span>
+              </div>
             </div>
           </div>
         </ResizablePanel>
@@ -163,8 +168,8 @@ function App() {
       
       {/* Contenido */}
       <p className="text-gray-600 leading-relaxed whitespace-pre-line">
-        {`Backend (Spring Boot, Go, FastAPI), frontend (React, Next.js), databases (MongoDB, Oracle), 
-        and cloud tools (Vercel, Docker). Proficient in REST APIs, authentication systems (JWT), and 
+        {`Backend (Spring Boot, Go, FastAPI), frontend (React, Next.js), databases (MongoDB, Oracle, PostgreSQL), 
+        and cloud tools (AWS, Vercel, Docker). Proficient in REST APIs, authentication systems (JWT), and 
         machine learning workflows. Actively exploring DevOps, serverless architectures, and agile 
         practices.`}
       </p>
@@ -249,6 +254,74 @@ University of Antioquia, Colombia`}
     </Table>
   </CardContent>
 </Card>
+<Card className="mx-4 my-2">
+  <CardContent>
+    <Table>
+      <TableBody>
+        <TableRow>
+          <TableCell>
+            <h2 className="text-lg font-semibold text-gray-900">Bancolombia</h2>
+            <div className="flex items-center gap-2 mt-2">
+              <span className="text-sm text-gray-700">Backend Developer Intern</span>
+              <span className="bg-blue-400 text-white text-sm px-2 py-1 rounded-md">
+                Jul 2024 - Current
+              </span>
+            </div>
+          </TableCell>
+          <TableCell className="h-auto whitespace-normal">
+            <div className="w-full text-left">
+              <h2 className="text-lg font-semibold text-gray-900 mb-2">
+                Backend Development with Reactive Springboot
+              </h2>
+              <p className="text-sm text-gray-500 leading-relaxed break-words">
+                Working on backend systems using reactive Springboot with clean architecture. Responsibilities include developing new features, code refactoring and cleanup, debugging, resolving security vulnerabilities, writing and maintaining tests, and overall backend maintenance. Focus on building scalable, secure, and efficient systems.
+              </p>
+            </div>
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </CardContent>
+</Card>
+                                        <div className="w-full">
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">
+        Certificates
+      </h1>
+      <Card className="mx-4 my-2">
+        <CardContent>
+          <Table>
+            <TableBody>
+              <TableRow>
+                <TableCell>
+                  <h2 className="text-lg font-semibold text-gray-900">Pragma Bootcamp Certificate</h2>
+                  <div className="flex items-center gap-2 mt-2">
+                    <span className="text-sm text-gray-700">Java Reactive Developer</span>
+                    <span className="bg-green-400 text-white text-sm px-2 py-1 rounded-md">
+                      Oct 2025
+                    </span>
+                  </div>
+                </TableCell>
+                <TableCell className="h-auto whitespace-normal">
+                  <div className="w-full text-left">
+                    <p className="text-sm text-gray-500 leading-relaxed break-words mb-4">
+                      Completed Pragma's 6-week Java Reactive Bootcamp with over 80% completion. Developed microservices using Spring Webflux and AWS technologies.
+                    </p>
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <img src="/certificado_bootcamp.png" alt="Pragma Bootcamp Certificate" className="w-32 h-auto cursor-pointer rounded-md shadow-md hover:shadow-lg transition-shadow" />
+                      </DialogTrigger>
+                      <DialogContent className="max-w-4xl">
+                        <img src="/certificado_bootcamp.png" alt="Pragma Bootcamp Certificate" className="w-full h-auto" />
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </CardContent>
+      </Card>
+    </div>
                                         <div className="w-full">
       {/* Título */}
       <h1 className="text-3xl font-bold text-gray-800 mb-6">
