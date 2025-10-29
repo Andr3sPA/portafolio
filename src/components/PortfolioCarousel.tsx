@@ -17,7 +17,7 @@ const portfolioItemsData: PortfolioItem[] = [
     id: "pragmaBootcamp",
     imageUrl: "/certificado_bootcamp.png",
     title: "Loan Management System - Pragma Bootcamp",
-    description: "Developed a comprehensive loan management system during Pragma's 6-week Java Reactive Bootcamp using Spring Webflux and AWS. Built three microservices: prestamos-service for loan requests and approvals, usuarios-service for user management and authentication, and reportes-service for business metrics. Implemented reactive programming, hexagonal architecture, JWT authentication, Docker containerization, AWS deployment with ECS/Fargate, Lambda functions for automatic validation, SQS/SNS for notifications, DynamoDB for reporting, and RDS for databases. Features include user registration, loan applications with manual and automatic approval processes, capacity assessment calculations, email notifications, and scheduled reports.",
+    description: "Comprehensive loan management system built during Pragma's 6-week Java Reactive Bootcamp. Developed three microservices using Spring Webflux, hexagonal architecture, and AWS (ECS, Lambda, SQS, SNS, DynamoDB, RDS). Features include user authentication, loan applications with automatic/manual approval, capacity assessment, and reporting.",
     projectUrls: ["https://github.com/Andr3sPA/prestamos-service", "https://github.com/Andr3sPA/usuarios-service", "https://github.com/Andr3sPA/reportes-service"],
   },
 {
