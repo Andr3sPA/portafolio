@@ -264,7 +264,7 @@ University of Antioquia, Colombia`}
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm text-gray-700">Backend Developer Intern</span>
               <span className="bg-blue-400 text-white text-sm px-2 py-1 rounded-md">
-                Jul 2024 - Current
+                Jul 2025 - Current
               </span>
             </div>
           </TableCell>
