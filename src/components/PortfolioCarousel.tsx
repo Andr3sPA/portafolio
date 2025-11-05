@@ -13,13 +13,15 @@ export interface PortfolioItem extends CarouselItemWithId {
 }
 
 const portfolioItemsData: PortfolioItem[] = [
-    {
-    id: "pragmaBootcamp",
-    imageUrl: "/certificado_bootcamp.png",
-    title: "Loan Management System - Pragma Bootcamp",
-    description: "Comprehensive loan management system built during Pragma's 6-week Java Reactive Bootcamp. Developed three microservices using Spring Webflux, hexagonal architecture, and AWS (ECS, Lambda, SQS, SNS, DynamoDB, RDS). Features include user authentication, loan applications with automatic/manual approval, capacity assessment, and reporting.",
-    projectUrls: ["https://github.com/Andr3sPA/prestamos-service", "https://github.com/Andr3sPA/usuarios-service", "https://github.com/Andr3sPA/reportes-service"],
+      {
+    id: "nexum",
+    imageUrl: "/nexum.png",
+    title: "Nexum - University Job Board",
+    description: "Nexum is a job board platform designed for the University of Antioquia, similar to LinkedIn. Developed using hexagonal architecture in Springboot for the backend, React for the frontend. Deployed backend on AWS EC2 and API Gateway, database on Neon, and frontend on Vercel. Features include job postings, user profiles, catalogs, and opportunities management.",
+    projectUrls: ["https://nexum-front.vercel.app/"],
+    //projectUrls: ["https://github.com/Andr3sPA/Nexum-Opportunity", "https://github.com/Andr3sPA/Nexum-Front", "https://github.com/Andr3sPA/Nexum-Profile", "https://github.com/Andr3sPA/Nexum-Catalog"],
   },
+
 {
   id: "restaurantManagement",
   imageUrl: "/restaurant_app.png", // Asegúrate de tener esta imagen en tu carpeta pública
@@ -36,12 +38,12 @@ const portfolioItemsData: PortfolioItem[] = [
     description: `Academic project developed with Next.js for the University of Antioquia’s Systems Engineering program. Features an interactive waste availability map, multi-role user system (buyers/sellers/collectors), and waste classification (recyclable/non-recyclable). Streamlines auction processes, transactions, and disposal logistics for enterprises.`,
     projectUrls: ["https://gestion-de-residuos-six.vercel.app"],
   },
-    {
-    id: "nexum",
-    imageUrl: "/nexum.png",
-    title: "Nexum - University Job Board",
-    description: "Nexum is a job board platform designed for the University of Antioquia, similar to LinkedIn. Developed using hexagonal architecture in Springboot for the backend, React for the frontend. Deployed backend on AWS EC2 and API Gateway, database on Neon, and frontend on Vercel. Features include job postings, user profiles, catalogs, and opportunities management.",
-    projectUrls: ["https://github.com/Andr3sPA/Nexum-Opportunity", "https://github.com/Andr3sPA/Nexum-Front", "https://github.com/Andr3sPA/Nexum-Profile", "https://github.com/Andr3sPA/Nexum-Catalog"],
+      {
+    id: "pragmaBootcamp",
+    imageUrl: "/certificado_bootcamp.png",
+    title: "Loan Management System - Pragma Bootcamp",
+    description: "Comprehensive loan management system built during Pragma's 6-week Java Reactive Bootcamp. Developed three microservices using Spring Webflux, hexagonal architecture, and AWS (ECS, Lambda, SQS, SNS, DynamoDB, RDS). Features include user authentication, loan applications with automatic/manual approval, capacity assessment, and reporting.",
+    projectUrls: ["https://github.com/Andr3sPA/prestamos-service", "https://github.com/Andr3sPA/usuarios-service", "https://github.com/Andr3sPA/reportes-service"],
   },
   {
     id: "projectEcommerce",
