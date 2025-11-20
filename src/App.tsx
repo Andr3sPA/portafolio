@@ -235,7 +235,7 @@ University of Antioquia, Colombia`}
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm text-gray-700">Programming Assistant</span>
               <span className="bg-green-400 text-white text-sm px-2 py-1 rounded-md">
-                Dec 2023 - Current
+                Dec 2023 - Dec 2025
               </span>
             </div>
           </TableCell>
@@ -264,7 +264,7 @@ University of Antioquia, Colombia`}
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm text-gray-700">Backend Developer Intern</span>
               <span className="bg-blue-400 text-white text-sm px-2 py-1 rounded-md">
-                Jul 2025 - Current
+                Jul 2025 - Jan 2026
               </span>
             </div>
           </TableCell>
