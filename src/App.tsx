@@ -242,10 +242,10 @@ University of Antioquia, Colombia`}
           <TableCell className="h-auto whitespace-normal">
             <div className="w-full text-left">
               <h2 className="text-lg font-semibold text-gray-900 mb-2">
-                Backend Development and Automation
+                Full Stack Development and Automation
               </h2>
               <p className="text-sm text-gray-500 leading-relaxed break-words">
-                Developed backend solutions and automation tools, including process automation using Google Apps Script to streamline operations. Contributed to web interface development with responsive design using Vuetify. Performed metric analysis via custom algorithms in Apps Script, utilizing data from Excel and Drive. Also handled database management, maintenance, and form integration. Applied software architecture principles and security best practices to deliver efficient, scalable systems.
+                Developed Full Stack solutions and automation tools, including process automation using Google Apps Script to streamline operations. Contributed to web interface development with responsive design using Vuetify. Performed metric analysis via custom algorithms in Apps Script, utilizing data from Excel and Drive. Also handled database management, maintenance, and form integration. Applied software architecture principles and security best practices to deliver efficient, scalable systems.
               </p>
             </div>
           </TableCell>
